@@ -78,7 +78,8 @@ jobs:
           path: ./dist
 
   # Deployment job
-  deploy: trace to port
+  deploy: MSN
+  
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
